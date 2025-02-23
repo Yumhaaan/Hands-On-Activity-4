@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+.sub-main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 9px rgb(97,97,97);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sub-main h3, .sub-main h4, .sub-main button {
+    text-align: center;
+}
+
+.sub-main input {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sub-main button {
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: rgb(45, 45, 211);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-main button:hover {
+    background-color: rgb(30, 30, 180);
+}
